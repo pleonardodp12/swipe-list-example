@@ -1,5 +1,3 @@
-console.log('eu estou dentro do arquivo')
-
 function handleStart(evt) {
   evt.target.dataset.x = Number(evt.touches[0].pageX) + Number(evt.target.dataset.move || 0)
 }
